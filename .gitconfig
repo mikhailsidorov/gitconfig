@@ -3,6 +3,9 @@
 	name = Mikhail Sidorov
 	email = 7780462+mikhailsidorov@users.noreply.github.com
 
+[includeIf "gitdir:~/dev/work/"]
+    path = ~/dev/work/.gitconfig
+
 [color]
 	status = auto
 	branch = auto
