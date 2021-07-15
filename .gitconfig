@@ -38,3 +38,5 @@
 	branch = false
 	stash = false 
 
+[pull]
+	rebase = false
