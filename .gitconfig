@@ -39,4 +39,7 @@
 	stash = false 
 
 [pull]
-	rebase = false
+  rebase = false
+
+[init]
+  defaultBranch = main
