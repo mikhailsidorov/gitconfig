@@ -33,6 +33,7 @@
 [core]
 	autocrlf = input
 	editor = vim
+        ignorecase = false
 
 [pager]
 	branch = false
