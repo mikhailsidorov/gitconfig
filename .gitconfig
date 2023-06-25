@@ -4,7 +4,7 @@
 	email = 7780462+mikhailsidorov@users.noreply.github.com
 
 [includeIf "gitdir:~/dev/work/"]
-    path = ~/dev/work/.gitconfig
+        path = ~/dev/work/.gitconfig
 
 [color]
 	status = auto
@@ -40,7 +40,10 @@
 	stash = false 
 
 [pull]
-  rebase = false
+	rebase = false
+
+[push]
+	autosetupremote = true
 
 [init]
-  defaultBranch = main
+    defaultBranch = main
